@@ -1,0 +1,27 @@
+{
+  "name": "e-commerce-service",
+  "version": "0.0.1",
+  "description": "E-Commerce Service",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "npx nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdugani0523/e-commerce-service.git"
+  },
+  "author": "Abdug'ani Toshmuhammedov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdugani0523/e-commerce-service/issues"
+  },
+  "homepage": "https://github.com/abdugani0523/e-commerce-service#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.6.7",
+    "joi": "^17.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

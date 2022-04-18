@@ -1,0 +1,40 @@
+type Query {
+    users( id: ID ): [User!]
+    login( email: email! password: String! ): Response!
+}
+
+type Mutation {
+    register(info: NewUser!): Response!
+    updateUser(info: UpdateUser): Response! 
+}
+
+scalar contact
+scalar email
+
+type User {
+    id: ID!
+    firstname: String!
+    lastname: String!
+    contact: contact!
+    email: email!
+}
+
+input UpdateUser {
+    firstname: String
+    lastname: String
+    contact: contact
+}
+
+type Response {
+    status: Int!
+    message: String!
+    token: String
+}
+
+input NewUser {
+    firstname: String!
+    lastname: String!
+    contact: contact!
+    email: email!
+    password: String!
+}

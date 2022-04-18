@@ -1,0 +1,39 @@
+scalar Upload
+
+type Query {
+    orders(id: ID): OrderResponse!
+}
+
+type OrderResponse {
+    info: Response!
+    data: [Order!]
+}
+
+type Mutation {
+    addOrder( products: [NewOrder!]!): Response!
+    removeOrder( id: ID!): Response!
+    updateOrder( id: ID! products: [NewOrder!]! is_paid: Boolean ): Response!
+}
+
+input NewOrder {
+    id: ID!
+    count: Int!
+}
+
+input Description {
+    short: String!
+    long: String!
+}
+
+type Order {
+    id: ID!
+    user: User!
+    products: [outputProduct!]
+    total_price: Int!
+    is_paid: Boolean!
+}
+
+type outputProduct {
+    product: Product!
+    count: Int!
+}

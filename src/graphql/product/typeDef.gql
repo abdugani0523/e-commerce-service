@@ -1,0 +1,37 @@
+scalar Upload
+
+type Query {
+    products(id: ID): [Product!]
+}
+
+type Mutation {
+    addProduct( info: NewProduct!): Response!
+    removeProduct( id: ID!): Response!
+    updateProduct(id: ID! info: UpdateProduct!): Response!
+}
+
+input NewProduct {
+    category: ID!
+    name: String!
+    price: Int!
+    description: Description!
+    picture: Upload!
+}
+
+input UpdateProduct {
+    category: ID
+    name: String
+    price: Int
+    description: Description
+    picture: Upload
+}
+
+input Description {
+    short: String!
+    long: String!
+}
+
+type Product {
+    id: ID!
+    name: String!
+}

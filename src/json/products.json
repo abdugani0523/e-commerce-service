@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone SE Black 2022",
+        "category": 4,
+        "description": {
+            "short": "Roll over image to zoom in Apple iPhone SE, 64GB, Red - Fully Unlocked (Renewed Premium)",
+            "long": "Carrier - This phone is locked to Total Wireless from Tracfone, which means this Device can only be used on the Total Wireless network.Plans – Total Wireless offers a variety of coverage plans, including 30-day unlimited Talk, text & data. Get the Nationwide coverage you need on America's largest, most dependable 4G LTE network. For more information or plan options, please visit the Total Wireless website.Activation - You’ll receive a Total Wireless SIM kit with this iPhone. Follow the instructions to get service activated with the Total Wireless plan of your choice.4.7-inch Retina HD displayWater and dust resistant (1 meter for up to 30 minutes, IP67)12MP Wide camera; Portrait mode, Portrait Lighting, Depth Control, next-generation Smart HDR, and 4K video7MP front camera with Portrait mode, Portrait Lighting, and Depth ControlTouch ID for secure authentication and Apple PayA13 Bionic chip with third-generation Neural EngineFast-charge capableFast-charge capable"
+        },
+        "price": 429,
+        "picture": "/assets/iPhoneSE-1650207794763.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Monitor Asus VG279QM 27' AH-IPS",
+        "category": 1,
+        "description": {
+            "short": "ASUS TUF Gaming 32' 1440P HDR Curved Monitor (VG32VQ) - QHD (2560 x 1440), 144Hz, 1ms, Extreme Low Motion Blur, Speaker, Adaptive-Sync, FreeSync Premium, VESA Mountable, DisplayPort, HDMI",
+            "long": "31.5 inch wqhd (2560x1440) 1800r curved hdr display with ultrafast 144hz refresh rate designed for professional gamers and immersive gameplayAsus extreme low motion blur sync (elmb sync) technology enables a 1ms response time (mprt) together with adaptive sync, eliminating ghosting and tearing for sharp gaming visuals with high frame ratesMarathon ready with asus eye care technology to minimize eye fatigue and an ergonomic stand with full height/tilt/pivot adjustments to accommodate any deskExclusive game visual & game plus functions to enhance color performance and controlShadow boost enhances image details in dark areas, brightening scenes without over exposing bright areas"
+        },
+        "price": 320,
+        "picture": "/assets/asus-monitor-1650258989893.jpg"
+    },
+    {
+        "id": 3,
+        "name": "iPad10-2-inch",
+        "category": 3,
+        "description": {
+            "short": "2021 Apple 10.2-inch iPad (Wi-Fi, 64GB) - Space Gray",
+            "long": "Gorgeous 10.2-inch Retina display with True ToneA13 Bionic chip with Neural Engine8MP Wide back camera, 12MP Ultra Wide front camera with Center StageUp to 256GB storageStereo speakersTouch ID for secure authentication and Apple Pay802.11ac Wi-Fi and Gigabit-class LTE cellular dataUp to 10 hours of battery lifeLightning connector for charging and accessoriesWorks with Apple Pencil (1st generation) and Smart Keyboard"
+        },
+        "price": 670,
+        "picture": "/assets/iPad10.2-inch-1650259196299.jpg"
+    },
+    {
+        "id": 4,
+        "name": "ASUS ROG Strix G15",
+        "category": 2,
+        "description": {
+            "short": "ASUS ROG Strix G15 (2021) Gaming Laptop, 15.6” 144Hz IPS Type FHD Display, NVIDIA GeForce RTX 3050, AMD Ryzen 7 4800H, 8GB DDR4, 512GB PCIe NVMe SSD, RGB Keyboard, Windows 10, G513IC-EB73",
+            "long": "NVIDIA GeForce RTX 3050 4GB GDDR6 with ROG Boost up to 1840MHz at 80W (95W with Dynamic Boost 2.0)AMD Ryzen 7 4800H Processor (8M Cache, up to 4.2 GHz)144Hz 15.6” Full HD 1920x1080 IPS-Type Display8GB DDR4 3200MHz RAM | 512GB PCIe SSD | Windows 10 HomeROG Intelligent Cooling thermal system with Thermal Grizzly Liquid Metal Thermal Compound"
+        },
+        "price": 1129,
+        "picture": "/assets/ASUS-ROG-Strix-G15-1650259369300.jpg"
+    }
+]

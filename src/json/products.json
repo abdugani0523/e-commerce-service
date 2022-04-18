@@ -42,5 +42,27 @@
         },
         "price": 1129,
         "picture": "/assets/ASUS-ROG-Strix-G15-1650259369300.jpg"
+    },
+    {
+        "id": 5,
+        "category": "2",
+        "name": "asdads",
+        "price": 3,
+        "description": {
+            "short": "a",
+            "long": "a"
+        },
+        "picture": "/assets/moon-1650283346714.jpg"
+    },
+    {
+        "id": 6,
+        "category": "2",
+        "name": "asdads",
+        "price": 3,
+        "description": {
+            "short": "a",
+            "long": "a"
+        },
+        "picture": "/assets/moon-1650283352613.jpg"
     }
 ]

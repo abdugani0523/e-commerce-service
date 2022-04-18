@@ -25,10 +25,10 @@ export default {
                 const categories = read('categories')
 
                 const { picture, category }  = info
-
-                // Upload image
                 const findCategory = categories.find(item => category == item.id)
                 if (!findCategory) throw new Error("The selected category was not found!")
+                
+                // Upload image
                 let { createReadStream, filename, mimetype } = await picture;
                 if (!mimetype?.includes('image')) throw new Error('You can only upload image!')
                 let { name, ext } = parse(filename)
